@@ -1,0 +1,15 @@
+## mest
+dist/
+
+## common
+.idea/
+.vscode/
+.happypack/
+node_modules/
+
+.sass-cache
+.DS_Store
+npm-debug.log
+npm-debug.log*
+yarn-error.log
+analysis.json
