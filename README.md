@@ -13,6 +13,7 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
+浏览器打开 `http://localhost:3000/`
 
 ## 配置
 
