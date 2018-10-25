@@ -21,6 +21,16 @@ $ npm run start:prod
 
 修改 `ormconfig.json` 相关配置
 
+```sql
+-- 测试users的表结构
+CREATE TABLE `users` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) NOT NULL,
+  `age` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+```
+
 > TODO 其他
 
 
